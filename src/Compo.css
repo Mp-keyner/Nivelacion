@@ -1,0 +1,40 @@
+.myProducts-gallery img {
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .5;
+}
+
+.myProducts-gallery img:hover {
+    opacity: 1;
+}
+
+.myProducts-gallery {
+    float: left;
+}
+
+.myProducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px solid blue; */
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.image-container img {
+    height: 400px;
+    transition: transform 1s;
+}
+
+.image-container img:hover {
+    transform: scale(1.5);
+    cursor: auto;
+}
+
+.image-container {
+    float: right;
+    padding: 10px;
+}

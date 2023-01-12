@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    background-color: #050A30;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.B {
+    /* border: 1px solid red; */
+    margin: 3pc;
+}
+
+.Heder {
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+}
