@@ -8,12 +8,56 @@ body {
 }
 
 .B {
-    /* border: 1px solid red; */
     margin: 3pc;
 }
 
 .Heder {
     display: flex;
-    /* grid-template-columns: repeat(3, 1fr); */
     justify-content: center;
+}
+
+.Tar {
+    margin-top: 1pc;
+    /* border: 1px solid red; */
+    width: 30pc;
+    display: flex;
+    align-items: center;
+}
+
+.Tar:hover {
+    background-color: rgba(189, 189, 189, 0.26);
+}
+
+.foto {
+
+    width: 6pc;
+    border-radius: 1pc;
+
+}
+
+.hijo1 {
+    margin-left: 11px;
+}
+
+.hijo2 {
+    padding-left: 25px;
+}
+
+.mar {
+    margin: 5px 0;
+}
+
+.I {
+    position: absolute;
+}
+
+.pa {
+    margin-top: 41pc;
+}
+
+.ma {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-color: hsla(0, 0%, 74%, .1);
 }

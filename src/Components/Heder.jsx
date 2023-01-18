@@ -4,7 +4,7 @@ import steam from "../img/logo.svg";
 
 
 export const Heder = () => {
-    return (<div className="B Heder">
+    return (<div className="B Heder" id="H">
         <img src={reactlogo} alt="Logo de React" className="logo B" />
         <div>
             <h1 className="B">Aplicacion Basica de React</h1>

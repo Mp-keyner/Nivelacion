@@ -8,22 +8,22 @@ export const Imagenes = () => {
     const imagen4 = "https://media.geeksforgeeks.org/wp-content/uploads/20211110154411/fullstacknodereactworkshopthumbnail.png"
 
 
-    const img1 = (x) => {
+    const img1 = () => {
         console.log("imagen 1")
         var y = document.getElementById("img-Box");
         y.src = imagen1;
     }
-    const img2 = (x) => {
+    const img2 = () => {
         console.log("imagen 2")
         var y = document.getElementById("img-Box");
         y.src = imagen2;
     }
-    const img3 = (x) => {
+    const img3 = () => {
         console.log("imagen 3")
         var y = document.getElementById("img-Box");
         y.src = imagen3;
     }
-    const img4 = (x) => {
+    const img4 = () => {
         console.log("imagen 4")
         var y = document.getElementById("img-Box");
         y.src = imagen4;
